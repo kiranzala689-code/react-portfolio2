@@ -6,7 +6,7 @@ function Services() {
   return (
   <div>
    
-  <div className="container-fluid bg-dark text-white py-5">
+  <div className="container-fluid bg-dark text-white py-5 wow animate__animated animate__fadeInUp">
   <div className="container text-center">
     <h1>Services</h1>
     <p className="text-secondary mb-5">

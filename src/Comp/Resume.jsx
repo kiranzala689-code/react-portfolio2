@@ -8,7 +8,7 @@ export default function Resume() {
   return (
     <>
     
-      <section className="resume-section bg-dark">
+      <section className="resume-section bg-dark wow animate__animated animate__fadeInUp">
         <div className="container bg-dark"data-aos="fade-up">
 
           <div className="text-center mb-5">

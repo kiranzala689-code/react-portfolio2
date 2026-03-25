@@ -6,7 +6,7 @@ function Contact() {
   return (
     <div>
   {/* <Navbar/> */}
-      <div className="container  mt-5 text-white">
+      <div className="container  mt-5 text-white wow animate__animated animate__fadeInUp">
         <h1 className='text-center text-white mt-4 mb-3'>Contact</h1>
         <h5 className='p-5 text-secondary'>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam</h5>
         <div className="row g-4">

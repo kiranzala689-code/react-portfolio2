@@ -26,21 +26,36 @@ function Home() {
 
             <div className="d-flex flex-wrap gap-3 mt-3">
               <button className="btn btn-primary rounded-pill">
-                 <NavLink className="nav-link" to="/Portfolio">VIew My Work</NavLink>
+                 <NavLink className="nav-link btn" to="/Portfolio">VIew My Work</NavLink>
               </button>
 
               <button className="btn btn-outline-primary text-white rounded-pill">
-                <NavLink className="nav-link" to="/Resume"> Get In Touch</NavLink>
+                <NavLink className="nav-link btn" to="/Resume"> Get In Touch</NavLink>
               </button>
             </div>
+   <div className='text-white  mt-5 ms-5 d-flex gap-4'>
+  
+  <a href="https://twitter.com" target="_blank" rel="noreferrer">
+   <h4> <i className="bi bi-twitter-x  text-white"></i></h4>
+  </a>
 
-            <div className="d-flex gap-4 mt-4 fs-5">
-              <i className="bi bi-twitter-x"></i>
-              <i className="bi bi-instagram"></i>
-              <i className="bi bi-threads"></i>
-              <i className="bi bi-facebook"></i>
-              <i className="bi bi-linkedin"></i>
-            </div>
+  <a href="https://instagram.com" target="_blank" rel="noreferrer">
+   <h4> <i className="bi bi-instagram text-white"></i></h4>
+  </a>
+
+  <a href="https://threads.net" target="_blank" rel="noreferrer">
+  <h4>  <i className="bi bi-threads text-white"></i></h4>
+  </a>
+
+  <a href="https://facebook.com" target="_blank" rel="noreferrer">
+    <h4><i className="bi bi-facebook text-white"></i></h4>
+  </a>
+
+  <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+<h4>    <i className="bi bi-linkedin text-white"></i></h4>
+  </a>
+
+</div>
 
           </div>
         </div>

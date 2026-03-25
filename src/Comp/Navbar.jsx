@@ -48,26 +48,26 @@ function Navbar() {
     <NavLink className="nav-link" to="/Portfolio">Portfolio</NavLink>
   </li>
 </ul>
-       <div className='text-white mt-2 d-flex gap-4'>
+       <div className='text-white  mt-2 d-flex gap-4'>
   
   <a href="https://twitter.com" target="_blank" rel="noreferrer">
-    <i className="bi bi-twitter-x"></i>
+    <i className="bi bi-twitter-x text-white"></i>
   </a>
 
   <a href="https://instagram.com" target="_blank" rel="noreferrer">
-    <i className="bi bi-instagram"></i>
+    <i className="bi bi-instagram text-white"></i>
   </a>
 
   <a href="https://threads.net" target="_blank" rel="noreferrer">
-    <i className="bi bi-threads"></i>
+    <i className="bi bi-threads text-white"></i>
   </a>
 
   <a href="https://facebook.com" target="_blank" rel="noreferrer">
-    <i className="bi bi-facebook"></i>
+    <i className="bi bi-facebook text-white"></i>
   </a>
 
   <a href="https://linkedin.com" target="_blank" rel="noreferrer">
-    <i className="bi bi-linkedin"></i>
+    <i className="bi bi-linkedin text-white"></i>
   </a>
 
 </div>

@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-    <div className='bg-dark'>
+    <div className='bg-dark wow animate__animated animate__fadeInUp'>
       <div className="container text-white text-center">
         <h1>About</h1>
         <h5 className="px-2 px-md-5">

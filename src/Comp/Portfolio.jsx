@@ -8,7 +8,7 @@ export default function Portfolio() {
     return (
         <> 
     
-            <section className="portfolio-section">
+            <section className="portfolio-section wow animate__animated animate__fadeInUp">
                 <div className="container" data-aos="fade-up">
 
                     <div className="text-center portfolio-heading">
