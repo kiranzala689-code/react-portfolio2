@@ -189,25 +189,43 @@ function About() {
           </div>
         </div>
       </div>
-      <div className="container bg-dark">
-        <h1 className='fw-light text-white text-center mb-4'>"Building clean and meaningful experiences through thoughtful code and quiet design."</h1>
+     <div className="container bg-dark py-4">
+  <h1 className="fw-light text-white text-center mb-4 px-3">
+    "Building clean and meaningful experiences through thoughtful code and quiet design."
+  </h1>
 
-        <div className="d-flex gap-5 justify-content-center align-center mt-4">
-          <button type="button" className="btn btn-outline-secondary ps-3 pe-3 rounded-pill"><i className="text-primary bi bi-magic me-2"></i>
-            Minimalism
-          </button>
-          <button type="button" class="btn btn-outline-secondary rounded-pill ps-3 pe-3">
-            <i class="bi bi-headphones text-primary me-2"></i> Lo-fi Beats
-          </button>
-          <button type="button" class="btn btn-outline-secondary rounded-pill ps-3 pe-3"><i class="text-primary bi bi-geo-alt me-2"></i>
-            City Walks
-          </button>
-          <button type="button" class="btn btn-outline-secondary rounded-pill ps-3 pe-3 ">
+  <div className="row justify-content-center g-3 mt-3">
 
-            <i class="bi bi-brush text-primary me-2"></i>   Sketching
-          </button>
-        </div>
-      </div>
+    <div className="col-6 col-sm-4 col-md-3 text-center">
+      <button className="btn btn-outline-secondary w-100 rounded-pill">
+        <i className="bi bi-magic text-primary me-2"></i>
+        Minimalism
+      </button>
+    </div>
+
+    <div className="col-6 col-sm-4 col-md-3 text-center">
+      <button className="btn btn-outline-secondary w-100 rounded-pill">
+        <i className="bi bi-headphones text-primary me-2"></i>
+        Lo-fi Beats
+      </button>
+    </div>
+
+    <div className="col-6 col-sm-4 col-md-3 text-center">
+      <button className="btn btn-outline-secondary w-100 rounded-pill">
+        <i className="bi bi-geo-alt text-primary me-2"></i>
+        City Walks
+      </button>
+    </div>
+
+    <div className="col-6 col-sm-4 col-md-3 text-center">
+      <button className="btn btn-outline-secondary w-100 rounded-pill">
+        <i className="bi bi-brush text-primary me-2"></i>
+        Sketching
+      </button>
+    </div>
+
+  </div>
+</div>
       <div className="container bg-dark mt-3 text-white text-center p-5">
         <h1 className='text-white text-center mt-3 fw-bold mb-5'>Skills</h1>
         <h5 className="mt-4 fw-light ">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam</h5>

@@ -49,12 +49,28 @@ function Navbar() {
   </li>
 </ul>
        <div className='text-white mt-2 d-flex gap-4'>
-        <p> <i class="bi bi-twitter-x "></i></p>
-        <p><i class="bi bi-instagram"></i></p>
-        <p><i class="bi bi-threads"></i></p>
-        <p><i class="bi bi-facebook"></i></p>
-        <p><i class="bi bi-linkedin"></i></p>
-       </div>
+  
+  <a href="https://twitter.com" target="_blank" rel="noreferrer">
+    <i className="bi bi-twitter-x"></i>
+  </a>
+
+  <a href="https://instagram.com" target="_blank" rel="noreferrer">
+    <i className="bi bi-instagram"></i>
+  </a>
+
+  <a href="https://threads.net" target="_blank" rel="noreferrer">
+    <i className="bi bi-threads"></i>
+  </a>
+
+  <a href="https://facebook.com" target="_blank" rel="noreferrer">
+    <i className="bi bi-facebook"></i>
+  </a>
+
+  <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+    <i className="bi bi-linkedin"></i>
+  </a>
+
+</div>
     </div>
 
   </div>
