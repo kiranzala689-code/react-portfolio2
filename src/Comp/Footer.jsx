@@ -5,7 +5,7 @@ function Footer() {
     <div>
 <div className="card bg-dark d-flex justify-content-center align-items-center">
   <div className="card-body text-center">
-  <p className='text-white'>© Copyright <b> FolioOne </b> All Rights Reserved</p>
+  <p className='text-white'>© Copyright <b> KIRAN ZALA </b> All Rights Reserved</p>
     <div className="text-white d-flex justify-content-center align-items-center gap-3 mt-4">
       <p><i className="bi bi-twitter-x"></i></p>
       <p><i className="bi bi-instagram"></i></p>

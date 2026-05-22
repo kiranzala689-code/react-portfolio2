@@ -1,5 +1,4 @@
 import React from 'react'
-// import About from './About'
 import { NavLink } from 'react-router-dom'
 function Navbar() {
   return (
@@ -9,7 +8,7 @@ function Navbar() {
 
     
     <a className="navbar-brand" href="#">
-      Navbar
+    <h2> <b className='text-primary'>KIRANSINH ZALA</b></h2>
     </a>
 
  
